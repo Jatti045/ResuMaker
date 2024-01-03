@@ -318,9 +318,12 @@ button:hover {
 .box {
   border: 2px solid rgb(255, 255, 255);
   width: 250px;   
-  height: 350px;  
-  background: transparent;
+  height: 310px;  
+  background-image: url(Images/UserIcon.png);
+  background-position: center;
+  margin-right: 10px;
   margin: 10px; 
+  backdrop-filter: blur(10px);
 }
 
 .click-here {
@@ -348,4 +351,12 @@ button:hover {
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0.75)
   ), url(Images/AboutUsBanner.png);
+}
+
+.nav-banner h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-left: 500px;
 }
