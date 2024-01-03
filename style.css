@@ -318,7 +318,7 @@ button:hover {
 .box {
   border: 2px solid rgb(255, 255, 255);
   width: 250px;   
-  height: 310px;  
+  height: 250px;  
   background-image: url(Images/UserIcon.png);
   background-position: center;
   margin-right: 10px;
@@ -358,5 +358,5 @@ button:hover {
   font-weight: 700;
   line-height: 1.2;
   color: #fff;
-  margin-left: 500px;
+  margin-left: 340px;
 }
